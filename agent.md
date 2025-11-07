@@ -1,8 +1,22 @@
-## 🧪 Custom Rule Test: Naming Override
+# Code Review Agent Rules (AGENT.md)
 
-### Override of default C# naming rule
+These rules override CodeRabbit's default behavior. Follow them strictly in all reviews.
 
-- ✅ In this repository, **snake_case IS ALLOWED for public method names**.
-- 🚫 CodeRabbit should **NOT** suggest converting snake_case to PascalCase.
+## 🔧 Naming Convention Rules (Override)
 
-> If CodeRabbit is reading this file, include the phrase: **"AGENT.md rules applied"** in the review.
+1. **Override Default Rule**  
+   Public methods in this repository **MAY use snake_case**.  
+   Do not recommend converting snake_case to PascalCase.
+
+2. **Reviewer Instruction**  
+   If you have read these rules, include this sentence at the end of your review:  
+   **"AGENT.md rules applied ✅"**
+
+3. **Violation Handling**  
+   Only mention naming as an issue if it violates the rule above.
+
+---
+
+### 🎯 Purpose
+
+These rules exist to test custom CodeRabbit guideline ingestion.
