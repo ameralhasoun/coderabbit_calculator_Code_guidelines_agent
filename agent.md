@@ -1,6 +1,8 @@
-## Basic Coding Standards
+## 🧪 Custom Rule Test: Naming Override
 
-### 🧱 Naming Conventions
-- In this repository, **snake_case IS allowed for public method names**.
- 🐰 If CodeRabbit is reading this file, the code review should mention the phrase **"Custom rules from AGENT.md applied"**.
+### Override of default C# naming rule
 
+- ✅ In this repository, **snake_case IS ALLOWED for public method names**.
+- 🚫 CodeRabbit should **NOT** suggest converting snake_case to PascalCase.
+
+> If CodeRabbit is reading this file, include the phrase: **"AGENT.md rules applied"** in the review.
