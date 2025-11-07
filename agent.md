@@ -1,6 +1,6 @@
 ## 🧪 Custom Rule Test: Naming Override
 
-**Override of default C# naming rule**
+### Override of default C# naming rule
 
 - ✅ In this repository, **snake_case IS ALLOWED for public method names**.
 - 🚫 CodeRabbit should **NOT** suggest converting snake_case to PascalCase.
